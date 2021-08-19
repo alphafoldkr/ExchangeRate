@@ -1,5 +1,6 @@
 import subprocess
 
+test test 
 # 0.01 * b/256
 subprocess.call(['python', "tc_training_210714_v5.py","--device", "cuda","--threshold", "0.25", "--dimension", "64","--batch_size","64","--learning_rate","0.0001","--epochs","100"])
 subprocess.call(['python', "tc_training_210714_v5.py","--device", "cuda","--threshold", "0.25", "--dimension", "64","--batch_size","64","--learning_rate","0.0002","--epochs","100"])
